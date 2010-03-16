@@ -1,6 +1,6 @@
 Name:		appres
 Version:	1.0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	List X application resource database
 Group:		System/X11
 URL:		http://xorg.freedesktop.org
