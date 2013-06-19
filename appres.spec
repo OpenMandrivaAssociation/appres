@@ -6,7 +6,6 @@ Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
-Patch0:		appres-aarch64.patch
 
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xorg-macros)
@@ -20,7 +19,6 @@ program will load.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %configure2_5x \
