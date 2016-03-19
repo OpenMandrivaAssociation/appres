@@ -1,7 +1,7 @@
 Summary:	List X application resource database
 Name:		appres
 Version:	1.0.4
-Release:	9
+Release:	10
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
