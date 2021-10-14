@@ -1,7 +1,7 @@
 Summary:	List X application resource database
 Name:		appres
 Version:	1.0.5
-Release:	3
+Release:	4
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
@@ -18,18 +18,18 @@ names. It can be used to determine which resources a particular
 program will load.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure \
 	--x-includes=%{_includedir} \
 	--x-libraries=%{_libdir}
-%make
+
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/appres
-%{_mandir}/man1/appres.1*
-
+%doc %{_mandir}/man1/appres.1*
