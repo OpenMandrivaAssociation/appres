@@ -1,11 +1,11 @@
 Summary:	List X application resource database
 Name:		appres
-Version:	1.0.6
-Release:	2
+Version:	1.0.7
+Release:	1
 Group:		System/X11
 License:	MIT
-Url:		http://xorg.freedesktop.org
-Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
+Url:		https://xorg.freedesktop.org
+Source0:	https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xorg-macros)
